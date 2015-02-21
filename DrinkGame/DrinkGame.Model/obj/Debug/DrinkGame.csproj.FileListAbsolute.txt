@@ -1,0 +1,12 @@
+c:\users\juanma\documents\visual studio 2013\Projects\DrinkGame\DrinkGame\bin\Debug\DrinkGame.exe.config
+c:\users\juanma\documents\visual studio 2013\Projects\DrinkGame\DrinkGame\obj\Debug\DrinkGame.csprojResolveAssemblyReference.cache
+c:\users\juanma\documents\visual studio 2013\Projects\DrinkGame\DrinkGame\bin\Debug\DrinkGame.exe
+c:\users\juanma\documents\visual studio 2013\Projects\DrinkGame\DrinkGame\bin\Debug\DrinkGame.pdb
+c:\users\juanma\documents\visual studio 2013\Projects\DrinkGame\DrinkGame\obj\Debug\DrinkGame.exe
+c:\users\juanma\documents\visual studio 2013\Projects\DrinkGame\DrinkGame\obj\Debug\DrinkGame.pdb
+C:\Users\Juanma\Documents\Visual Studio 2013\Projects\DrinkGame\DrinkGame.Model\bin\Debug\DrinkGame.exe.config
+C:\Users\Juanma\Documents\Visual Studio 2013\Projects\DrinkGame\DrinkGame.Model\bin\Debug\DrinkGame.exe
+C:\Users\Juanma\Documents\Visual Studio 2013\Projects\DrinkGame\DrinkGame.Model\bin\Debug\DrinkGame.pdb
+C:\Users\Juanma\Documents\Visual Studio 2013\Projects\DrinkGame\DrinkGame.Model\obj\Debug\DrinkGame.csprojResolveAssemblyReference.cache
+C:\Users\Juanma\Documents\Visual Studio 2013\Projects\DrinkGame\DrinkGame.Model\obj\Debug\DrinkGame.exe
+C:\Users\Juanma\Documents\Visual Studio 2013\Projects\DrinkGame\DrinkGame.Model\obj\Debug\DrinkGame.pdb
