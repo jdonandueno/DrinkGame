@@ -2,6 +2,6 @@
 {
     public abstract class Game
     {
-        public abstract void Play(int lim);
+        public abstract string Play(int lim);
     }
 }

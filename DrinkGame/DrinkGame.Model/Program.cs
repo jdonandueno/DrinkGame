@@ -15,8 +15,8 @@ namespace DrinkGame
                               "\"fizzbuzz\"");
             Console.WriteLine("Presiona enter para comenzar");
             Console.ReadLine();
-            var game = new Pilorium(7);
-            game.Play(10);
+            Game game = new FizzBuzz(3, 7);
+            Console.Write(game.Play(100));
         }
     }
 }

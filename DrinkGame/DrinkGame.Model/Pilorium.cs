@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Text;
 
 namespace DrinkGame
 {
@@ -33,15 +34,16 @@ namespace DrinkGame
                 .ToDictionary(d => d.Key, x => x.Value);
         }
 
-        public override void Play(int lim)
+        public override string Play(int lim)
         {
+            var resultBuilder = new StringBuilder();
             for (int i = 1; i < lim; i++)
             {
                 var comparer = i;
                 var toPrint = "";
                 if (comparer%_pilorium == 0)
                 {
-                    Console.WriteLine("Pilorium");
+                    resultBuilder.Append("Pilorium");
                     continue;
                 }
 
@@ -88,8 +90,9 @@ namespace DrinkGame
                     goto Assign;
 
                 }
-                Console.WriteLine(toPrint);
+                resultBuilder.Append(toPrint);
             }
+            return resultBuilder.ToString();
         }
 
         private void _AddPrint(KeyValuePair<string, int> letter, ref string toPrint)

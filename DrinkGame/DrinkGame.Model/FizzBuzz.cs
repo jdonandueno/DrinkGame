@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace DrinkGame
 {
@@ -13,9 +14,10 @@ namespace DrinkGame
             _buzz = buzz;
         }
 
-        public override void Play(int lim)
+        public override string Play(int lim)
         {
-            for (int i = 1; i < lim; i++)
+            var resultBuilder = new StringBuilder();
+            for (var i = 1; i < lim; i++)
             {
                 var toPrint = "";
                 if (i%_fizz == 0)
@@ -25,8 +27,11 @@ namespace DrinkGame
                 if (toPrint == "")
                     toPrint = i.ToString();
 
-                Console.Write(toPrint + ",");
+                resultBuilder.Append(toPrint);
+                resultBuilder.Append(',');
             }
+
+            return resultBuilder.ToString();
         }
     }
 }
